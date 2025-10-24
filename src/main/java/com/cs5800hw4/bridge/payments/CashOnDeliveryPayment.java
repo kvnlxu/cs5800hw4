@@ -1,6 +1,6 @@
-package com.cs5800hw4.payments;
+package com.cs5800hw4.bridge.payments;
 
-import com.cs5800hw4.notificationchannels.NotificationChannel;
+import com.cs5800hw4.bridge.notificationchannels.NotificationChannel;
 
 public class CashOnDeliveryPayment extends Payment{
 

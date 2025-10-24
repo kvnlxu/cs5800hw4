@@ -1,8 +1,10 @@
-import com.cs5800hw4.notificationchannels.EmailChannel;
-import com.cs5800hw4.payments.BitcoinPayment;
-import com.cs5800hw4.payments.CashOnDeliveryPayment;
-import com.cs5800hw4.payments.OnlinePayment;
-import com.cs5800hw4.payments.Payment;
+package bridge;
+
+import com.cs5800hw4.bridge.notificationchannels.EmailChannel;
+import com.cs5800hw4.bridge.payments.BitcoinPayment;
+import com.cs5800hw4.bridge.payments.CashOnDeliveryPayment;
+import com.cs5800hw4.bridge.payments.OnlinePayment;
+import com.cs5800hw4.bridge.payments.Payment;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,12 +1,12 @@
-package com.cs5800hw4;
+package com.cs5800hw4.bridge;
 
-import com.cs5800hw4.notificationchannels.EmailChannel;
-import com.cs5800hw4.notificationchannels.PushChannel;
-import com.cs5800hw4.notificationchannels.SmsChannel;
-import com.cs5800hw4.payments.BitcoinPayment;
-import com.cs5800hw4.payments.CashOnDeliveryPayment;
-import com.cs5800hw4.payments.OnlinePayment;
-import com.cs5800hw4.payments.Payment;
+import com.cs5800hw4.bridge.notificationchannels.EmailChannel;
+import com.cs5800hw4.bridge.notificationchannels.PushChannel;
+import com.cs5800hw4.bridge.notificationchannels.SmsChannel;
+import com.cs5800hw4.bridge.payments.BitcoinPayment;
+import com.cs5800hw4.bridge.payments.CashOnDeliveryPayment;
+import com.cs5800hw4.bridge.payments.OnlinePayment;
+import com.cs5800hw4.bridge.payments.Payment;
 
 public class Driver {
     public static void main(String[] args) {

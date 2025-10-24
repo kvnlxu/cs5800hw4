@@ -1,7 +1,9 @@
-import com.cs5800hw4.notificationchannels.EmailChannel;
-import com.cs5800hw4.notificationchannels.NotificationChannel;
-import com.cs5800hw4.notificationchannels.PushChannel;
-import com.cs5800hw4.notificationchannels.SmsChannel;
+package bridge;
+
+import com.cs5800hw4.bridge.notificationchannels.EmailChannel;
+import com.cs5800hw4.bridge.notificationchannels.NotificationChannel;
+import com.cs5800hw4.bridge.notificationchannels.PushChannel;
+import com.cs5800hw4.bridge.notificationchannels.SmsChannel;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.cs5800hw4.notificationchannels;
+package com.cs5800hw4.bridge.notificationchannels;
 
 public class SmsChannel implements NotificationChannel {
     public void sendNotification(String message) {
